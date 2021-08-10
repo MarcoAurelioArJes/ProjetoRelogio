@@ -1,0 +1,209 @@
+.blocoRelogio {
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+    box-sizing: border-box;
+    padding: 3.7rem 0;
+    margin: 0 auto;
+}
+
+.circuloRelogio {
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    border: 0.5rem solid #FF0000;
+    border-radius: 50rem;
+    margin: 0 auto;
+    background: #000;
+}
+
+.hora {
+    position: absolute;
+    width: 15.5rem;
+    height: 0.5rem;
+    top: 14.72rem;
+    right: 15rem;
+    transform-origin: right;
+}
+
+.ponto {
+    width: 2rem;
+    height: 0.5rem;
+    background: #FF0000;
+}
+
+.miniPonto {
+    width: 1.3rem;
+    height: 0.2rem;
+    background: #FF0000;
+}
+
+.marcaHora {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20rem;
+    background: #FF0000;
+    top: 18rem;
+    right: 18.8rem;
+}
+.ponteiro {
+    position: absolute;
+    transform-origin: left;
+    top: 0.7rem;
+    left: 0.8rem;
+}
+.marca_s {
+    width: 10rem;
+    height: 0.5rem;
+    clip-path: ellipse();
+
+    background: #FF0000;
+}
+.marca_m {
+    width: 8rem;
+    height: 0.5rem;
+    clip-path: ellipse();
+    background: #FFF;
+}
+.marca_h {
+    width: 6rem;
+    height: 0.5rem;
+    clip-path: ellipse();
+
+    background: #FFF;
+}
+
+.numeros {
+    position: absolute;
+    color: white;
+    left: 3rem;
+    top: -1rem;
+    font-size: 2rem;
+}
+
+.digital {
+    width: 10rem;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 600px) {
+    .blocoRelogio {
+        width: 20rem;
+        height: 30rem;
+    }
+
+    .circuloRelogio {
+        width: 15rem;
+        height: 15rem;
+    } 
+    
+    .hora {
+        width: 7.5rem;
+        height: 0.5rem;
+        top: 7.25rem;
+        right: 7.53rem;
+    }
+
+    .marcaHora {
+        width: 1.5rem;
+        height: 1.5rem;
+        top: 10.99rem;
+        right: 9.21rem;
+    }
+
+    .ponteiro {
+        top: 0.7rem;
+    }
+    .marca_s {
+        width: 5rem;
+    }
+    .marca_m {
+        width: 4rem;
+    }
+    .marca_h {
+        width: 3rem;
+    }
+
+    .numeros {
+        font-size: 1rem;
+    }
+
+    .digital {
+        width: 12rem;
+        font-size: 3rem;
+    
+        margin: 2rem auto;
+    }
+
+    .containerButton {
+        width: 7.5rem;
+        margin: 2rem auto;
+    }
+
+    .buttonCronometro {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .blocoRelogio {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .circuloRelogio {
+        width: 20rem;
+        height: 20rem;
+    } 
+    
+    .hora {
+        width: 10.1rem;
+        height: 0.5rem;
+        top: 9.78rem;
+        right: 10rem;
+    }
+
+    .marcaHora {
+        width: 1.5rem;
+        height: 1.5rem;
+        top: 13.44rem;
+        right: 11.67rem;
+    }
+
+    .ponteiro {
+        top: 0.7rem;
+    }
+    .marca_s {
+        width: 5rem;
+    }
+    .marca_m {
+        width: 4rem;
+    }
+    .marca_h {
+        width: 3rem;
+    }
+
+    .numeros {
+        font-size: 2rem;
+    }
+
+    .digital {
+        width: 12rem;
+        font-size: 3rem;
+    
+        margin: 2rem auto;
+    }
+
+    .containerButton {
+        width: 7.5rem;
+        margin: 10rem auto;
+    }
+
+    .buttonCronometro {
+        font-size: 1rem;
+    }
+}

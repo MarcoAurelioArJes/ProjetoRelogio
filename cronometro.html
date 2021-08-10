@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronômetro</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cronometroStyle.css">
 </head>
 <body>
     <main class="principal">
         <div class="cronometro">
+
+            <div class="voltarRelogio">
+                <a href="index.html">
+                    <button class="btnRelogio">Relógio</button>
+                </a>
+            </div>
 
             <div class="contador">
                 <div class="cron hour"></div>
@@ -17,13 +24,18 @@
                 <div class="cron minutes"></div>
                 <div class="cron divisao2">:</div>
                 <div class="cron seconds">00</div>
-                <div class="millisegundos">00</div>
+                <div class="milliseconds">00</div>
             </div>
+
             <div class="divButton">
-                <button class="btn  btnCronometro" onclick="pontaPe();">Iniciar</button>
-                <button class="btn  btnParar">Parar</button>
+                <button class="btn  btnCronometro">Iniciar</button>
+                <button class="btn  btnPausar">Pausar</button>
                 <button class="btn  btnMarcar">Marcar</button>
-                <button class="btn  btnRelogio"><a href="index.html">Relógio</a></button>
+                <button class="btn  btnZerar">Zerar</button>
+            </div>
+
+            <div class="conteudo">
+                <div class="marcaTempo"></div>
             </div>
         </div>
     </main>

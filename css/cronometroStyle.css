@@ -1,0 +1,80 @@
+.cronometro {
+    width: 100vw;
+    padding-top: 5rem;
+}
+
+.voltarRelogio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.btnRelogio {
+    background: transparent;
+    cursor: pointer;
+}
+
+.contador {
+    position: relative;
+    width: 16rem;
+    height: 65px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cron {
+    font-size: 4rem;
+}
+
+.hour, .minutes, .divisao1, .divisao2 {
+    display: none;
+}
+
+.milliseconds {
+    position: absolute;
+    right: -0.5rem;
+    align-self: flex-end;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.divButton {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.btn {
+    width: 5rem;
+    height: 2rem;
+
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: #777;
+
+    font-size: 1.2rem;
+
+    transition: 1s background;
+}
+
+.btn:hover {
+    background: #424242;
+}
+
+/* MARCANDO OS TEMPOS */
+.conteudo {
+    width: 100vw;
+}
+
+.marcaTempo {
+    width: 50%;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.hms {
+    font-size: 1.5rem;
+}
